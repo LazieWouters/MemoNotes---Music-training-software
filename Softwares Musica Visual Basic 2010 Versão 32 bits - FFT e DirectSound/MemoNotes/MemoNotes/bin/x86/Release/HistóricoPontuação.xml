@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<HistóricoPontuação>
+  <Pontuação>
+    <ID>000001</ID>
+    <Data>24/11/2009</Data>
+    <HoraInicio>03:12:37</HoraInicio>
+    <HoraFim>03:21:19</HoraFim>
+    <Percentual>94,57</Percentual>
+    <Acertos>296</Acertos>
+    <Erros>17</Erros>
+    <Total>313</Total>
+    <Tempo>00:08:42.184</Tempo>
+    <TempoMédio>1,67</TempoMédio>
+    <Tom>
+    </Tom>
+    <Clave>
+    </Clave>
+    <ModoDeJogo>
+    </ModoDeJogo>
+    <QtdeNotas>
+    </QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000002</ID>
+    <Data>24/11/2009</Data>
+    <HoraInicio>15:01:16</HoraInicio>
+    <HoraFim>15:24:49</HoraFim>
+    <Percentual>93,56</Percentual>
+    <Acertos>1003</Acertos>
+    <Erros>69</Erros>
+    <Total>1072</Total>
+    <Tempo>00:23:32.731</Tempo>
+    <TempoMédio>1,32</TempoMédio>
+    <Tom>
+    </Tom>
+    <Clave>
+    </Clave>
+    <ModoDeJogo>
+    </ModoDeJogo>
+    <QtdeNotas>
+    </QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000003</ID>
+    <Data>24/11/2009</Data>
+    <HoraInicio>23:40:27</HoraInicio>
+    <HoraFim>23:53:17</HoraFim>
+    <Percentual>93,49</Percentual>
+    <Acertos>546</Acertos>
+    <Erros>38</Erros>
+    <Total>584</Total>
+    <Tempo>00:12:49.538</Tempo>
+    <TempoMédio>1,32</TempoMédio>
+    <Tom>
+    </Tom>
+    <Clave>
+    </Clave>
+    <ModoDeJogo>
+    </ModoDeJogo>
+    <QtdeNotas>
+    </QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000004</ID>
+    <Data>25/11/2009</Data>
+    <HoraInicio>00:35:12</HoraInicio>
+    <HoraFim>00:57:15</HoraFim>
+    <Percentual>94,07</Percentual>
+    <Acertos>873</Acertos>
+    <Erros>55</Erros>
+    <Total>928</Total>
+    <Tempo>00:22:02.652</Tempo>
+    <TempoMédio>1,43</TempoMédio>
+    <Tom>
+    </Tom>
+    <Clave>
+    </Clave>
+    <ModoDeJogo>
+    </ModoDeJogo>
+    <QtdeNotas>
+    </QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000005</ID>
+    <Data>26/11/2009</Data>
+    <HoraInicio>03:31:24</HoraInicio>
+    <HoraFim>03:54:30</HoraFim>
+    <Percentual>98,45</Percentual>
+    <Acertos>1015</Acertos>
+    <Erros>16</Erros>
+    <Total>1031</Total>
+    <Tempo>00:23:06.060</Tempo>
+    <TempoMédio>1,34</TempoMédio>
+    <Tom>
+    </Tom>
+    <Clave>
+    </Clave>
+    <ModoDeJogo>
+    </ModoDeJogo>
+    <QtdeNotas>
+    </QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000006</ID>
+    <Data>27/11/2009</Data>
+    <HoraInicio>02:39:34</HoraInicio>
+    <HoraFim>03:09:30</HoraFim>
+    <Percentual>99,40</Percentual>
+    <Acertos>822</Acertos>
+    <Erros>5</Erros>
+    <Total>827</Total>
+    <Tempo>00:29:55.317</Tempo>
+    <TempoMédio>2,17</TempoMédio>
+    <Tom>
+    </Tom>
+    <Clave>
+    </Clave>
+    <ModoDeJogo>
+    </ModoDeJogo>
+    <QtdeNotas>
+    </QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000007</ID>
+    <Data>28/11/2009</Data>
+    <HoraInicio>03:17:05</HoraInicio>
+    <HoraFim>03:43:23</HoraFim>
+    <Percentual>97,85</Percentual>
+    <Acertos>591</Acertos>
+    <Erros>13</Erros>
+    <Total>604</Total>
+    <Tempo>00:26:17.460</Tempo>
+    <TempoMédio>2,61</TempoMédio>
+    <Tom>
+    </Tom>
+    <Clave>
+    </Clave>
+    <ModoDeJogo>
+    </ModoDeJogo>
+    <QtdeNotas>
+    </QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000008</ID>
+    <Data>28/11/2009</Data>
+    <HoraInicio>04:00:04</HoraInicio>
+    <HoraFim>04:23:48</HoraFim>
+    <Percentual>97,07</Percentual>
+    <Acertos>531</Acertos>
+    <Erros>16</Erros>
+    <Total>547</Total>
+    <Tempo>00:23:44.184</Tempo>
+    <TempoMédio>2,60</TempoMédio>
+    <Tom>
+    </Tom>
+    <Clave>
+    </Clave>
+    <ModoDeJogo>
+    </ModoDeJogo>
+    <QtdeNotas>
+    </QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000009</ID>
+    <Data>07/12/2009</Data>
+    <HoraInicio>23:47:55</HoraInicio>
+    <HoraFim>00:00:05</HoraFim>
+    <Percentual>95,13</Percentual>
+    <Acertos>254</Acertos>
+    <Erros>13</Erros>
+    <Total>267</Total>
+    <Tempo>00:12:10.023</Tempo>
+    <TempoMédio>2,73</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol e Fá (Piano)</Clave>
+    <ModoDeJogo>Nota Exata</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000010</ID>
+    <Data>26/10/2010</Data>
+    <HoraInicio>13:14:28</HoraInicio>
+    <HoraFim>13:22:12</HoraFim>
+    <Percentual>96,30</Percentual>
+    <Acertos>208</Acertos>
+    <Erros>8</Erros>
+    <Total>216</Total>
+    <Tempo>00:07:43.442</Tempo>
+    <TempoMédio>2,15</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000011</ID>
+    <Data>26/10/2010</Data>
+    <HoraInicio>13:50:23</HoraInicio>
+    <HoraFim>13:56:28</HoraFim>
+    <Percentual>97,32</Percentual>
+    <Acertos>254</Acertos>
+    <Erros>7</Erros>
+    <Total>261</Total>
+    <Tempo>00:06:04.937</Tempo>
+    <TempoMédio>1,40</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000012</ID>
+    <Data>26/10/2010</Data>
+    <HoraInicio>20:47:42</HoraInicio>
+    <HoraFim>20:57:02</HoraFim>
+    <Percentual>95,58</Percentual>
+    <Acertos>368</Acertos>
+    <Erros>17</Erros>
+    <Total>385</Total>
+    <Tempo>00:09:20.704</Tempo>
+    <TempoMédio>1,46</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000013</ID>
+    <Data>26/10/2010</Data>
+    <HoraInicio>21:17:06</HoraInicio>
+    <HoraFim>21:24:46</HoraFim>
+    <Percentual>96,27</Percentual>
+    <Acertos>310</Acertos>
+    <Erros>12</Erros>
+    <Total>322</Total>
+    <Tempo>00:07:40.064</Tempo>
+    <TempoMédio>1,43</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000014</ID>
+    <Data>26/10/2010</Data>
+    <HoraInicio>21:36:52</HoraInicio>
+    <HoraFim>21:41:00</HoraFim>
+    <Percentual>95,83</Percentual>
+    <Acertos>184</Acertos>
+    <Erros>8</Erros>
+    <Total>192</Total>
+    <Tempo>00:04:08.293</Tempo>
+    <TempoMédio>1,29</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000015</ID>
+    <Data>30/10/2010</Data>
+    <HoraInicio>11:01:07</HoraInicio>
+    <HoraFim>11:03:16</HoraFim>
+    <Percentual>91,87</Percentual>
+    <Acertos>113</Acertos>
+    <Erros>10</Erros>
+    <Total>123</Total>
+    <Tempo>00:02:08.294</Tempo>
+    <TempoMédio>1,04</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>
+    </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000016</ID>
+    <Data>02/11/2010</Data>
+    <HoraInicio>11:37:53</HoraInicio>
+    <HoraFim>11:41:14</HoraFim>
+    <Percentual>94,44</Percentual>
+    <Acertos>187</Acertos>
+    <Erros>11</Erros>
+    <Total>198</Total>
+    <Tempo>00:03:21.047</Tempo>
+    <TempoMédio>1,02</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>C D E F </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000017</ID>
+    <Data>07/11/2010</Data>
+    <HoraInicio>10:38:01</HoraInicio>
+    <HoraFim>10:39:53</HoraFim>
+    <Percentual>90,48</Percentual>
+    <Acertos>95</Acertos>
+    <Erros>10</Erros>
+    <Total>105</Total>
+    <Tempo>00:01:51.847</Tempo>
+    <TempoMédio>1,07</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>C D E F </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000018</ID>
+    <Data>07/11/2010</Data>
+    <HoraInicio>10:42:56</HoraInicio>
+    <HoraFim>10:44:34</HoraFim>
+    <Percentual>89,69</Percentual>
+    <Acertos>87</Acertos>
+    <Erros>10</Erros>
+    <Total>97</Total>
+    <Tempo>00:01:38.257</Tempo>
+    <TempoMédio>1,01</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>C D E F </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000019</ID>
+    <Data>07/11/2010</Data>
+    <HoraInicio>13:44:53</HoraInicio>
+    <HoraFim>13:48:49</HoraFim>
+    <Percentual>91,02</Percentual>
+    <Acertos>223</Acertos>
+    <Erros>22</Erros>
+    <Total>245</Total>
+    <Tempo>00:03:55.960</Tempo>
+    <TempoMédio>0,96</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>C D E F </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000020</ID>
+    <Data>07/11/2010</Data>
+    <HoraInicio>14:28:23</HoraInicio>
+    <HoraFim>14:31:42</HoraFim>
+    <Percentual>89,62</Percentual>
+    <Acertos>190</Acertos>
+    <Erros>22</Erros>
+    <Total>212</Total>
+    <Tempo>00:03:19.141</Tempo>
+    <TempoMédio>0,94</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>C D E F </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000021</ID>
+    <Data>11/11/2010</Data>
+    <HoraInicio>22:18:14</HoraInicio>
+    <HoraFim>22:19:49</HoraFim>
+    <Percentual>69,000</Percentual>
+    <Acertos>69</Acertos>
+    <Erros>31</Erros>
+    <Total>100</Total>
+    <Tempo>00:01:35.813</Tempo>
+    <TempoMédio>1,5</TempoMédio>
+    <Tom>C - Am</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>C D E F </NotasSelecionadas>
+  </Pontuação>
+  <Pontuação>
+    <ID>000022</ID>
+    <Data>10/01/2011</Data>
+    <HoraInicio>21:32:47</HoraInicio>
+    <HoraFim>21:35:49</HoraFim>
+    <Percentual>96,522</Percentual>
+    <Acertos>111</Acertos>
+    <Erros>4</Erros>
+    <Total>115</Total>
+    <Tempo>00:03:01.359</Tempo>
+    <TempoMédio>1,577</TempoMédio>
+    <Tom>G - Em (F#)</Tom>
+    <Clave>Sol (Piano)</Clave>
+    <ModoDeJogo>Pauta: Nota Genérica (Visual)</ModoDeJogo>
+    <QtdeNotas>1</QtdeNotas>
+    <NotasSelecionadas>C D E F G A B </NotasSelecionadas>
+</Pontuação>
+</HistóricoPontuação>
