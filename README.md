@@ -1,4 +1,4 @@
-# MemoNotes---Music-training-software
+# MemoNotes Music training software
 
 I'm making my software available on GitHub (MIT license) to anyone interested in it.
 
