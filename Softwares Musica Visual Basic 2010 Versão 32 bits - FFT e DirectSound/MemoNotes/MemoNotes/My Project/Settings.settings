@@ -1,0 +1,800 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Database1ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=|DataDirectory|\Database1.sdf&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Microsoft.SqlServerCe.Client.3.5&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=|DataDirectory|\Database1.sdf</Value>
+    </Setting>
+    <Setting Name="ValorNovoTrackBar1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">55</Value>
+    </Setting>
+    <Setting Name="ValorNovoTrackBar2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="ValorNovoAcidentes" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirNomeDaNota" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorCoresNotas" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorIntervalosPauta" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Este índice não será usado&lt;/string&gt;
+  &lt;string&gt;Este índice não será usado&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorIdentificarLinhas" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorIdentificarPosiçãoDóCentral" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorIdentificarPosiçãoNotasSOLeFÁ" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorVelocidade" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="NovoValorIdentificarPosiçãoTodasNotasDó" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorTransposição" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirNumeraçãoEspaçosLinhasSuplementares" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox9" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox11" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ValorNovoTrackBar3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="NovoValorTopMost" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirNumeraçãoDasNotas" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox100" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorOitavaEscala" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox200" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovaCor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="NovoValorNotaExata" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorCifra" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ValorNovoTrackBar4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="ValorNovoTrackBar5" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">37</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox13" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox14" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox15" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox16" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox18" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox17" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox19" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox24" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorSimplificado" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovaCorB" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 153, 255</Value>
+    </Setting>
+    <Setting Name="NovaCorA" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 153, 0</Value>
+    </Setting>
+    <Setting Name="NovaCorG" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">217, 214, 89</Value>
+    </Setting>
+    <Setting Name="NovaCorF" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="NovaCorE" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">0, 153, 255</Value>
+    </Setting>
+    <Setting Name="NovaCorD" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">51, 153, 102</Value>
+    </Setting>
+    <Setting Name="NovaCorC" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">2, 0, 0</Value>
+    </Setting>
+    <Setting Name="HPontConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\HPont.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\HPont.mdb</Value>
+    </Setting>
+    <Setting Name="NovoValorCoresArmadura" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorNomeDoMenu" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NovoValorCheckBox26" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox28" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCheckBox27" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorTextBox1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="NovoValorQtdeNotas" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="NovoValorVisual" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorSonoro" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorPPP" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 255, 150</Value>
+    </Setting>
+    <Setting Name="NovoValorPP" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="NovoValorP" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 210, 0</Value>
+    </Setting>
+    <Setting Name="NovoValorMP" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 150, 0</Value>
+    </Setting>
+    <Setting Name="NovoValorMF" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 40, 40</Value>
+    </Setting>
+    <Setting Name="NovoValorF" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">215, 0, 0</Value>
+    </Setting>
+    <Setting Name="NovoValorFF" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">150, 50, 0</Value>
+    </Setting>
+    <Setting Name="NovoValorFFF" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">85, 0, 0</Value>
+    </Setting>
+    <Setting Name="NovoValorFiguraRitmicas" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Indíce 0 não será usado&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorTempoInicial" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="NovoValorMãoDireita" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorMãoEsquerda" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorPontoAumentoMD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorPontoAumentoME" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorDuploPontoAumentoME" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorDuploPontoAumentoMD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorLigadurasMD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorLocalizaçãoCompassoAtual" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorLocalizaçãoSubdivisãoCompassoAtual" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorCompassos" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorTriploPontoAumentoME" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorTriploPontoAumentoMD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorDinamicaMD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorDinamicaME" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorPercentualDinamicaMD" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="NovoValorPercentualDinamicaME" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="NovoValorLigadurasME" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorPercentualLigadurasMD" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="NovoValorPercentualLigadurasME" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="NovoValorForçaDinâmica" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorCondescendente" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorNormal" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorSevera" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovaCorME" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="NovaCorMD" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Lime</Value>
+    </Setting>
+    <Setting Name="NovoValorSwingMD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorSwingME" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorTonalidades" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorQuantidadeDeAcordes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="NovoValorCifras" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorLinhaSuplementar" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirNotas" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="HistóricoPontuaçãoConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\HistóricoPontuação.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\HistóricoPontuação.mdb</Value>
+    </Setting>
+    <Setting Name="NovoValorQtdeRegistrosGráfico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Todos</Value>
+    </Setting>
+    <Setting Name="NovoValorAbrangenciaDasNotas" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorViolaoSetores" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorViolaoSomenteNotasNaturais" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorTonicaComoUltimoAcorde" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorIntervalos" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorAscendente" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorDescendente" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorQtdeIntervalos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="NovoValorLocalizaçãoMicroSubdivisãoCompassoAtual" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorMetrônomoTempoForte" Type="System.String" Scope="User">
+      <Value Profile="(Default)">34 - Metronome Bell</Value>
+    </Setting>
+    <Setting Name="NovoValorMetrônomoTempoFraco" Type="System.String" Scope="User">
+      <Value Profile="(Default)">33 - Metronome Click</Value>
+    </Setting>
+    <Setting Name="NovoValorVolumeTempoForte" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">127</Value>
+    </Setting>
+    <Setting Name="NovoValorVolumeTempoFraco" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">110</Value>
+    </Setting>
+    <Setting Name="NovoValorTocarSonsMetronomo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorInstrumentoMusical" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;000 - Acoustic Grand Piano&lt;/string&gt;
+  &lt;string&gt;000 - Acoustic Grand Piano&lt;/string&gt;
+  &lt;string&gt;000 - Acoustic Grand Piano&lt;/string&gt;
+  &lt;string&gt;000 - Acoustic Grand Piano&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorSomRitmo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">39 - Hand Clap</Value>
+    </Setting>
+    <Setting Name="NovoValorVolumeRitmo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">127</Value>
+    </Setting>
+    <Setting Name="NovaCorLocalizaçãoDosCompassos" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="NovaTransparênciaCorLocalizaçãoDosCompassos" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="NovoValorGraus" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorTocarTetrade" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorTeclaMãoEsquerda" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A</Value>
+    </Setting>
+    <Setting Name="NovoValorTeclaMãoDireita" Type="System.String" Scope="User">
+      <Value Profile="(Default)">L</Value>
+    </Setting>
+    <Setting Name="NovoValorOpçãoTiposEscalas" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorDesenharBolinhasNotasAcordes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorDesenharAcordesMaisUsados" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorLocalizaçãoFundamentalDeReferenciaNoAcorde" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirNomeIntervalos" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorCopiarImagemDosAcordes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorFatorEscala" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="NovoValorLarguraTelaEstudoIntervalos" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">247</Value>
+    </Setting>
+    <Setting Name="NovoValorTipoDeJogoTelaEstudoIntervalos" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PosiçãoJanelaIndicadorDeFrequencia" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="TamanhoJanelaIndicadorDeFrequencia" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">291, 786</Value>
+    </Setting>
+    <Setting Name="NovoValorMargemErro" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="NovoValorNotifyPointsInSecond" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="NovoValorBufferSeconds" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="NovoValorSampleRate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">48000</Value>
+    </Setting>
+    <Setting Name="NovaCorIntervalos" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">0, 192, 0</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirNumerosDedilhado" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirNomeDasNotasAcordes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorSalvarAcordes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorNumeraçãoTrastes" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">150, 150, 150</Value>
+    </Setting>
+    <Setting Name="NovoValorLinhasDiagramaAcordes" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">200, 200, 200</Value>
+    </Setting>
+    <Setting Name="NovoValorAcordesMaisUsados" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">153, 217, 234</Value>
+    </Setting>
+    <Setting Name="NovoValorBolinhaAcordes" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="NovoValorNumeraçãoDedilhados1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="NovoValorNumeraçãoDedilhados2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="NovoValorNotaDeReferênciaAcorde" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="NovoValorCorPestanas" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="NovoValorCorDasCifras" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirNotasBraçoViolão" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorModoJogoTelaAcordesCifras" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorModoJogoTelaAcordesTom" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;True&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirAcordesInvertidos" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirIntervalosBraçoViolão" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorExibirAcordesMaisUsadosModoJogo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorTimers" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;00&lt;/string&gt;
+  &lt;string&gt;01&lt;/string&gt;
+  &lt;string&gt;50&lt;/string&gt;
+  &lt;string&gt;00&lt;/string&gt;
+  &lt;string&gt;00&lt;/string&gt;
+  &lt;string&gt;50&lt;/string&gt;
+  &lt;string&gt;00&lt;/string&gt;
+  &lt;string&gt;01&lt;/string&gt;
+  &lt;string&gt;00&lt;/string&gt;
+  &lt;string&gt;00&lt;/string&gt;
+  &lt;string&gt;00&lt;/string&gt;
+  &lt;string&gt;50&lt;/string&gt;
+  &lt;string&gt;1000&lt;/string&gt;
+  &lt;string&gt;50&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorFonteCaptaçãoÁudio" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;True&lt;/string&gt;
+  &lt;string&gt;False&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorMaxFreq" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">3951.1</Value>
+    </Setting>
+    <Setting Name="NovoValorTimerTrocaDeAcorde" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="NovoValorTrocarAcordesNoIntervaloDeTempo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NovoValorLineInput" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;1&lt;/string&gt;
+  &lt;string&gt;2&lt;/string&gt;
+  &lt;string&gt;1&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="NovoValorDispositivoAudio" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

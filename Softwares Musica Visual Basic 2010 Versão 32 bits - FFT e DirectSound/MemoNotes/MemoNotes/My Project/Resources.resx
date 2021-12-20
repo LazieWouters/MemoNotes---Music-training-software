@@ -1,0 +1,1861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Nota13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaBsustenido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaBsustenido.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveDó" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveDó.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_Correta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla Correta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota52.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PontoAumento2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PontoAumento2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota62.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CorretoRitmo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CorretoRitmo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReconhecimentoIntervalos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReconhecimentoIntervalos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC749" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC749.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscalaG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscalaG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota41.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota63.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionada3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionada3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BotãoOnOff_Desligado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BotãoOnOff_Desligado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota27.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_5b9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#5b9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_1113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#1113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7MG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7MG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveG2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveG2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionada2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionada2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveAbemol2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveAbemol2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_5b9ouC7b9b13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#5b9ouC7b9b13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Terça" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Terça.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm79.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota40.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SustenidoArmaduraClave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SustenidoArmaduraClave.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveDbemol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveDbemol2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G preto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bemol_pequeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bemol pequeno.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveSol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveSol.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveGbemol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveGbemol1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Figura3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Figura3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PontoAumento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PontoAumento.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M9_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M9#11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Figura5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Figura5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desligado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desligado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm7911" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm7911.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Triplet4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triplet4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DivisaoDasOitavasNaPauta8vb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisaoDasOitavasNaPauta8vb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCmG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCmG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Segunda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Segunda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreinamentoRitmico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreinamentoRitmico.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota58.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm7G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm7G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveFsus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveFsus1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b913" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b913.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota51.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota73.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NumeraçãoNotas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NumeraçãoNotas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_9_11ouC7b5_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#9#11ouC7b5#9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LinhaSuplementar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LinhaSuplementar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Triplet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triplet2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seta3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seta3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveE2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm7M9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm7M9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quinta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quinta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_9_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#9#11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Figura2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Figura2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaIncorreta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaIncorreta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota36.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pauta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pauta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveA1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota57.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#59.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm7M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm7M.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pausa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pausa1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraTelaInicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraTelaInicial.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b5E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b5E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7413" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7413.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7maior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7maior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota40.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveA2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveA2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_Gsus_Ab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip G# Ab.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota73.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala2G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala2G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeDb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeDb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8vb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8vb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BemolArmaduraClave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BemolArmaduraClave.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota70.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveA2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SplashScreen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5justa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5justa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm79G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm79G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota59.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarcaçãoCompasso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarcaçãoCompasso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pausa6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pausa6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pausa3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pausa3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15mb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15mb2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fundamental" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fundamental.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dfff2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dfff2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota60.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IncorretoRitmo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IncorretoRitmo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveAbemol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveAbemol2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveSolFá - 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveSolFá - 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip A.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCmBb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCmBb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveCbemol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveCbemol2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linhas_guiasG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linhas guiasG1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A preto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArmadurasTelaReconhecimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArmadurasTelaReconhecimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ajuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ajuda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota45.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15ma2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15ma2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota67.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveB2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveB2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ligado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ligado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveSolFá" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveSolFá.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M#11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Incorreto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Incorreto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_E_Fb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip E Fb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota42.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaCbemol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaCbemol.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCmadd9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCmadd9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7menor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7menor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeAb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeAb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveFa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveFa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota61.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota46.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm7M6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm7M6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala2C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala2C.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip D.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M9B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M9B.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M#5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveDbemol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveDbemol1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M9_11G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M9#11G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linhas_guiasC5F3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linhas guiasC5F3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaPressionadaA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaPressionadaA.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DivisaoDasOitavasNaPauta15vb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisaoDasOitavasNaPauta15vb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCmEb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCmEb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6-4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota55.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveGbemol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveGbemol2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sol_no_Teclado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sol no Teclado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota54.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota68.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Figura6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Figura6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b5_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b5#9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveE2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveE2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota60.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveFsus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveFsus2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveF1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sustenido_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sustenido grande.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota72.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC69.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seta4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seta4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota53.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveD2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveD2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota71.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota35.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pausa4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pausa4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Figura4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Figura4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscalaA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscalaA.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sexta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sexta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota34.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_B_Cb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip B Cb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota54.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaPressionadaD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaPressionadaD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_F_Esus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip F E#.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaFbemol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaFbemol.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_Branca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla Branca.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Notas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Notas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3menor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3menor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC74913" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC74913.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC#5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota47.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveF2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveF2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaF.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveEbemol2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveEbemol2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveD1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveD1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dmp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dmp2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oitava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oitava.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveD2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveD2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sustenido_pequeno2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sustenido pequeno2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dmp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota49.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaEsustenido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaEsustenido.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PonteiroMetronomo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PonteiroMetronomo2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Df" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Df.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota41.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveAbemol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveAbemol1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota63.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fá" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fá.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota27.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaA2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3maior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3maior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TocarEscala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TocarEscala.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4justa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4justa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota39.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DivisaoDasOitavasNaPauta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisaoDasOitavasNaPauta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D preto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeFsust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeFsust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linhas_guiasF5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linhas guiasF5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Correto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Correto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6menor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6menor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5diminuida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5diminuida.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaPressionada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaPressionada.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota65.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveG1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota72.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8justa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8justa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaCorreta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaCorreta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveBbemol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveBbemol1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Continuar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Continuar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ligaduras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ligaduras.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveF2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_5_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#5#9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dfff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dfff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bemol_Intervalos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bemol_Intervalos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DivisaoDasOitavasNaPauta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisaoDasOitavasNaPauta2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota44.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota66.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dff2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dff2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC74b9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC74b9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveBbemol2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveBbemol2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala2B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala2B.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm7b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm7b5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E preto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DobradoSustenido_Intervalos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DobradoSustenido_Intervalos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota35.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_f.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dp2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AjudaDasEscalas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AjudaDasEscalas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dpp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dpp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fechar_Ativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fechar Ativo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Triplet3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triplet3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CorretoArmaduraClave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CorretoArmaduraClave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveC1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC6G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC6G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota57.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota38.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Df2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Df2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5-4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linhas_guiasC3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linhas guiasC3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_Incorreta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla Incorreta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaB.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dpp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dpp2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC69G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC69G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linhas_guiasC2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linhas guiasC2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PautaClavesDeDó - 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PautaClavesDeDó - 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PautaClavesDeDó" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PautaClavesDeDó.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota53.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sustenido_Intervalos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sustenido_Intervalos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC79_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC79#11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCº7M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCº7M.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveEbemol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveEbemol2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC74.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M_5E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M#5E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota52.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_5E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#5E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota34.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaPressionadaB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaPressionadaB.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaBsustenido2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaBsustenido2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EfeitoVidro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EfeitoVidro.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala2E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala2E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minimizar_Ativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minimizar Ativo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M9E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M9E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReconhecimentoAcordesTonalidade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReconhecimentoAcordesTonalidade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fechar_Inativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fechar Inativo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC_G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MemorizacaoNotasNoBracoViolao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MemorizacaoNotasNoBracoViolao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b5b9ouC7b9_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b5b9ouC7b9#11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linhas_guiasC4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linhas guiasC4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2maior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2maior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC713" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC713.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveG2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota49.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCadd9E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCadd9E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fá_no_Teclado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fá no Teclado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F preto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota51.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_Dsus_Eb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip D# Eb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeCb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeCb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BotãoOnOff_Ligado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BotãoOnOff_Ligado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm69Eb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm69Eb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dmf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dmf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota59.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReconhecimentoArmaduraClave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReconhecimentoArmaduraClave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota39.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pausa5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pausa5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota67.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscalaD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscalaD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota36.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minimizar_Inativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minimizar Inativo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Numeração_linhas_suplementares" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Numeração linhas suplementares.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_5Bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#5Bb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota38.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Triplet1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Triplet1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Escalas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Escalas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IncorretoRitmoDinamica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IncorretoRitmoDinamica.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dó" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dó.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PontoAumento3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PontoAumento3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveCsus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveCsus1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeBb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeBb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PonteiroMetronomo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PonteiroMetronomo1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15ma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15ma.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionada.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveEbemol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveEbemol1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveDó2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveDó2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota42.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProgressãoAcordesTomMaior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProgressãoAcordesTomMaior.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaPressionadaE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaPressionadaE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MãoEsquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MãoEsquerda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveGbemol2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveGbemol2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IncorretoArmaduraClave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IncorretoArmaduraClave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala2A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala2A.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_9G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#9G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota43.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sétima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sétima.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota61.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_5ouC7b13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#5ouC7b13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dppp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dppp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota71.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M69.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dppp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dppp2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota70.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PontoAumento1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PontoAumento1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quarta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quarta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M_11G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M#11G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeCsust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeCsust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8va2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8va2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveBbemol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveBbemol2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProgressãoAcordes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProgressãoAcordes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionada4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionada4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bemol_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bemol grande.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaA.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_Preta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla Preta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8vb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8vb2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DobradoBemol_Intervalos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DobradoBemol_Intervalos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota62.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveCbemol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveCbemol1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dmf2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dmf2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12-4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm69.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DivisaoDasOitavasNaPauta15va" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisaoDasOitavasNaPauta15va.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DivisaoDasOitavasNaPauta8va" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DivisaoDasOitavasNaPauta8va.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SemNota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SemNota.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala2D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala2D.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sustenido_pequeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sustenido pequeno.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscalaE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscalaE.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota68.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscala.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9-4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota69.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sol.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreinamentoDinamica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreinamentoDinamica.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_Csus_Db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip C# Db.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Percentual_de_Acertos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Percentual de Acertos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota37.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linhas_guias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linhas guias.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dó_Central" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dó Central.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveE1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota56.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota46.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b5b9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b5b9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbrangenciaNotas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbrangenciaNotas2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Numeração_linhas_suplementares2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Numeração linhas suplementares2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscalaC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscalaC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7-8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCº" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCº.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeEb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeEb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7913" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7913.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveCsus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveCsus2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M9G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M9G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linhas_guiasC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linhas guiasC1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AbrangenciaNotas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AbrangenciaNotas1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7#9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Figura1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Figura1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6maior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6maior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8va" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8va.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveSol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveSol2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lá" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lá.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B preto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaPressionadaC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaPressionadaC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pausar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pausar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota58.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeclaEscalaB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeclaEscalaB.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ré" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ré.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pausa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pausa2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveB2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveB2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveCbemol2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveCbemol2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveD11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveD1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ppp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ppp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_C_Bsus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip C B#.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Teclado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teclado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Acordes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Acordes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota37.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm711" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm711.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCºb13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCºb13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota69.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveCsus2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveCsus2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Si" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Si.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7ME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7ME.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarraCompasso8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarraCompasso8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeGb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeGb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15mb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15mb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveDbemol2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveDbemol2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7M.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ligado2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ligado2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b5ouC7_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b5ouC7#11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC79.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NotinhaMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NotinhaMenu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveB1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveB1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota56.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaPressionadaG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaPressionadaG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota47.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota65.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCBb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCBb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC69E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC69E.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LegendaDinâmicas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LegendaDinâmicas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_BrancaPressionadaC2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla BrancaPressionadaC2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm6Eb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm6Eb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCadd9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCadd9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota45.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b9_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b9#11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TocarEscala2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TocarEscala2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota55.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraCm6G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraCm6G.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_Fsus_Gb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip F# Gb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveFsus2Col" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveFsus2Col.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveFa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveFa2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7b9b13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7b9b13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NNota43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NNota43.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LinhaSuplementar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LinhaSuplementar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MãoDireita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MãoDireita.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToolTip_Asus_Bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolTip A# Bb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Desligado2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desligado2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Swing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Swing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota44.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClaveNenhum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClaveNenhum.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota66.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecla_PretaPressionadaF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tecla PretaPressionadaF.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TonalidadeG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TonalidadeG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CifraC7Mb5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CifraC7Mb5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
