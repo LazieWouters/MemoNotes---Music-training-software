@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MemoNotes">
+</Property><Property Name="Solution File" Value="F:\Desktop\Softwares Musica Visual Basic 2010\MemoNotes\MemoNotes.sln">
+</Property><Property Name="Date" Value="terça-feira, 8 de junho de 2010">
+</Property><Property Name="Time" Value="22:31">
+</Property></Properties><Event ErrorLevel="0" Project="MemoNotes" Source="MemoNotes\MemoNotes.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MemoNotes" Source="MemoNotes\MemoNotes.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BotãoOnOff" Source="..\BotãoOnOff\BotãoOnOff.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BotãoOnOff" Source="..\BotãoOnOff\BotãoOnOff.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MemoNotes.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MemoNotes.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MemoNotes" Source="MemoNotes\MemoNotes.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="MemoNotes" Source="MemoNotes\MemoNotes.vbproj" Description="References to Microsoft.VisualBasic.PowerPacks.Vs were updated to Microsoft.VisualBasic.PowerPacks.Vs 10.0.">
+</Event><Event ErrorLevel="0" Project="BotãoOnOff" Source="..\BotãoOnOff\BotãoOnOff.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
