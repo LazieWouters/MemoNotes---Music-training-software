@@ -39,3 +39,6 @@ Some system features:
 * and more things;
 
 I hope this project can be useful to someone else.
+
+
+![alt text](https://preview.redd.it/g5my75ujbp681.png?width=1920&format=png&auto=webp&s=7276f9694bb461ffba2efc44f524ef4f124bd1eb)
