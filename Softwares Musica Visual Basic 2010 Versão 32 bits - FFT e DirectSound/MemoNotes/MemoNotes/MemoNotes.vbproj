@@ -1,0 +1,1291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D78B845-EC49-4689-A3FD-E45D6541D059}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MemoNotes.My.MyApplication</StartupObject>
+    <RootNamespace>MemoNotes</RootNamespace>
+    <AssemblyName>MemoNotes</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>64BB31E8DE78A30CF20BF3875E41361695294750</ManifestCertificateThumbprint>
+    <ManifestKeyFile>MemoNotes_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <ApplicationIcon>Icone.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\Master\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>1</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/MemoNotes/</UpdateUrl>
+    <ProductName>MemoNotes</ProductName>
+    <PublisherName>Lazie Wouters</PublisherName>
+    <MinimumRequiredVersion>1.0.0.1</MinimumRequiredVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MemoNotes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MemoNotes.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DirectShowLib-2005, Version=2.0.0.0, Culture=neutral, PublicKeyToken=67e7b740cdfc2d3f, processorArchitecture=MSIL" />
+    <Reference Include="knob, Version=1.0.3530.34987, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectSound.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
+    <Reference Include="SoundAnalysis">
+      <HintPath>..\SoundAnalysis\bin\x86\Release\SoundAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="SoundCapture">
+      <HintPath>..\SoundCapture\bin\x86\Release\SoundCapture.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Toub.Sound.Midi">
+      <HintPath>.\Toub.Sound.Midi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="DirectShowLib" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="SoundCapture" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing.Drawing2D" />
+    <Import Include="System.Drawing.Text" />
+    <Import Include="System.Reflection" />
+    <Import Include="System.Runtime.InteropServices" />
+    <Import Include="System.Text" />
+    <Import Include="System.Threading" />
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Toub.Sound.Midi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acordes.Designer.vb">
+      <DependentUpon>Acordes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acordes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\ApplicationEvents.vb" />
+    <Compile Include="Classes\clsMidiData.vb" />
+    <Compile Include="Classes\Decl_API.vb" />
+    <Compile Include="Escolha uma escala.Designer.vb">
+      <DependentUpon>Escolha uma escala.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Escolha uma escala.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstudoIntervalosAcordes.Designer.vb">
+      <DependentUpon>EstudoIntervalosAcordes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EstudoIntervalosAcordes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstudoRitmico.Designer.vb">
+      <DependentUpon>EstudoRitmico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EstudoRitmico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExercicioParaMemorizarEscalas.Designer.vb">
+      <DependentUpon>ExercicioParaMemorizarEscalas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExercicioParaMemorizarEscalas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FFT\Sound Analysis\ComplexNumber.vb" />
+    <Compile Include="FFT\Sound Analysis\FftAlgorithm.vb" />
+    <Compile Include="FFT\Sound Capture\SoundCaptureBase.vb" />
+    <Compile Include="FFT\Sound Capture\SoundCaptureDevice.vb" />
+    <Compile Include="FFT\Sound Capture\SoundCaptureException.vb" />
+    <Compile Include="FigurasRitmicas.Designer.vb">
+      <DependentUpon>FigurasRitmicas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FigurasRitmicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FFT\FrequenciesScale.Designer.vb">
+      <DependentUpon>FrequenciesScale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FFT\FrequenciesScale.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FFT\FrequencyInfoSource.vb" />
+    <Compile Include="FFT\FrequencyUtils.vb" />
+    <Compile Include="HistóricoPontuação.Designer.vb">
+      <DependentUpon>HistóricoPontuação.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HistóricoPontuação.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FFT\IndicadorDeFrequencia.Designer.vb">
+      <DependentUpon>IndicadorDeFrequencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FFT\IndicadorDeFrequencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicial.Designer.vb">
+      <DependentUpon>Inicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemoNotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemoNotes.Designer.vb">
+      <DependentUpon>MemoNotes.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemorizacaoNotasViolao.Designer.vb">
+      <DependentUpon>MemorizacaoNotasViolao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MemorizacaoNotasViolao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\MicroStopwatch.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Escalas.Designer.vb">
+      <DependentUpon>Escalas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Escalas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcoesMemonotes.Designer.vb">
+      <DependentUpon>OpcoesMemonotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcoesMemonotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpçõesTelaAcordes.Designer.vb">
+      <DependentUpon>OpçõesTelaAcordes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpçõesTelaAcordes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerPixelAlphaForms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReconhecimentoAcordesTonalidade.Designer.vb">
+      <DependentUpon>ReconhecimentoAcordesTonalidade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReconhecimentoAcordesTonalidade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReconhecimentoArmaduraClave.Designer.vb">
+      <DependentUpon>ReconhecimentoArmaduraClave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReconhecimentoArmaduraClave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FFT\SelectDeviceForm.Designer.vb">
+      <DependentUpon>SelectDeviceForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FFT\SelectDeviceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Settings.vb" />
+    <Compile Include="FFT\SoundFrequencyInfoSource.vb" />
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teclado.Designer.vb">
+      <DependentUpon>Teclado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Teclado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAcordesModoJogo.Designer.vb">
+      <DependentUpon>TelaAcordesModoJogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAcordesModoJogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreinamentoDinâmicaMãoEsquerdaDireita.Designer.vb">
+      <DependentUpon>TreinamentoDinâmicaMãoEsquerdaDireita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TreinamentoDinâmicaMãoEsquerdaDireita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreinamentoGrausEscala.Designer.vb">
+      <DependentUpon>TreinamentoGrausEscala.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TreinamentoGrausEscala.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreinamentoIntervalos.Designer.vb">
+      <DependentUpon>TreinamentoIntervalos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TreinamentoIntervalos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\VariáveisGlobais.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acordes.resx">
+      <DependentUpon>Acordes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escolha uma escala.resx">
+      <DependentUpon>Escolha uma escala.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstudoIntervalosAcordes.resx">
+      <DependentUpon>EstudoIntervalosAcordes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstudoRitmico.resx">
+      <DependentUpon>EstudoRitmico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExercicioParaMemorizarEscalas.resx">
+      <DependentUpon>ExercicioParaMemorizarEscalas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FFT\SelectDeviceForm.resx">
+      <DependentUpon>SelectDeviceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FigurasRitmicas.resx">
+      <DependentUpon>FigurasRitmicas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FFT\FrequenciesScale.resx">
+      <DependentUpon>FrequenciesScale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistóricoPontuação.resx">
+      <DependentUpon>HistóricoPontuação.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FFT\IndicadorDeFrequencia.resx">
+      <DependentUpon>IndicadorDeFrequencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicial.resx">
+      <DependentUpon>Inicial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemoNotes.resx">
+      <DependentUpon>MemoNotes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemorizacaoNotasViolao.resx">
+      <DependentUpon>MemorizacaoNotasViolao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escalas.resx">
+      <DependentUpon>Escalas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcoesMemonotes.resx">
+      <DependentUpon>OpcoesMemonotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpçõesTelaAcordes.resx">
+      <DependentUpon>OpçõesTelaAcordes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerPixelAlphaForms.resx">
+      <DependentUpon>PerPixelAlphaForms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReconhecimentoAcordesTonalidade.resx">
+      <DependentUpon>ReconhecimentoAcordesTonalidade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReconhecimentoArmaduraClave.resx">
+      <DependentUpon>ReconhecimentoArmaduraClave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teclado.resx">
+      <DependentUpon>Teclado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAcordesModoJogo.resx">
+      <DependentUpon>TelaAcordesModoJogo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreinamentoDinâmicaMãoEsquerdaDireita.resx">
+      <DependentUpon>TreinamentoDinâmicaMãoEsquerdaDireita.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreinamentoGrausEscala.resx">
+      <DependentUpon>TreinamentoGrausEscala.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreinamentoIntervalos.resx">
+      <DependentUpon>TreinamentoIntervalos.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lá.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla Branca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla Preta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar Inativo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar Ativo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar Ativo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar Inativo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dó.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ré.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fá.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Si.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desligado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ligado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dó Central.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fá no Teclado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sol no Teclado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linhas guias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bemol pequeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sustenido pequeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bemol grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sustenido grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Correto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incorreto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SplashScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numeração linhas suplementares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MemoNotes_TemporaryKey.pfx" />
+    <None Include="Resources\Percentual de Acertos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ajuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\Nota.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Segunda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Terça.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quarta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quinta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sexta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sétima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oitava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundamental.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip B Cb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip C B#.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip A# Bb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip E Fb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip F E#.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip C# Db.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip D# Eb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip F# Gb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolTip G# Ab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Continuar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pausar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8va.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8vb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15ma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15mb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaA2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ligado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desligado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaBsustenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaEsustenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaCbemol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaFbemol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla PretaPressionada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionada2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionada3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionada4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla PretaPressionadaA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla PretaPressionadaB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla PretaPressionadaC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla PretaPressionadaD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla PretaPressionadaE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla PretaPressionadaF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla PretaPressionadaG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tecla BrancaPressionadaBsustenido2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luzinha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icone.ico" />
+    <None Include="Resources\CifraC7Mb5.png" />
+    <None Include="Resources\MarcaçãoCompasso.png" />
+    <None Include="Resources\5diminuida.png" />
+    <None Include="Resources\8justa.png" />
+    <None Include="Resources\5justa.png" />
+    <None Include="Resources\4justa.png" />
+    <None Include="Resources\7maior.png" />
+    <None Include="Resources\7menor.png" />
+    <None Include="Resources\6maior.png" />
+    <None Include="Resources\6menor.png" />
+    <None Include="Resources\3maior.png" />
+    <None Include="Resources\3menor.png" />
+    <None Include="Resources\2maior.png" />
+    <None Include="Resources\2m.png" />
+    <None Include="Resources\ReconhecimentoIntervalos.png" />
+    <None Include="Resources\MemorizacaoNotasNoBracoViolao.png" />
+    <None Include="Resources\LinhaSuplementar2.png" />
+    <None Include="Resources\PautaClavesDeDó - 2.png" />
+    <None Include="Resources\ClaveSolFá - 2.png" />
+    <None Include="Resources\TonalidadeFsust.png" />
+    <None Include="Resources\TonalidadeCsust.png" />
+    <None Include="Resources\TonalidadeBb.png" />
+    <None Include="Resources\TonalidadeAb.png" />
+    <None Include="Resources\TonalidadeGb.png" />
+    <None Include="Resources\TonalidadeEb.png" />
+    <None Include="Resources\TonalidadeDb.png" />
+    <None Include="Resources\TonalidadeCb.png" />
+    <None Include="Resources\TonalidadeB.png" />
+    <None Include="Resources\TonalidadeA.png" />
+    <None Include="Resources\TonalidadeG.png" />
+    <None Include="Resources\TonalidadeF.png" />
+    <None Include="Resources\TonalidadeE.png" />
+    <None Include="Resources\TonalidadeD.png" />
+    <None Include="Resources\TonalidadeC.png" />
+    <None Include="Resources\ReconhecimentoAcordesTonalidade.png" />
+    <None Include="Resources\Tick.png" />
+    <None Include="Resources\ArmadurasTelaReconhecimento.png" />
+    <None Include="Resources\IncorretoArmaduraClave.png" />
+    <None Include="Resources\CorretoArmaduraClave.png" />
+    <None Include="Resources\ReconhecimentoArmaduraClave.png" />
+    <None Include="Resources\Swing.png" />
+    <None Include="Resources\CifraC7#9#11ouC7b5#9.png" />
+    <None Include="Resources\CifraC7#5b9ouC7b9b13.png" />
+    <None Include="Resources\CifraC7b5b9ouC7b9#11.png" />
+    <None Include="Resources\CifraCºb13.png" />
+    <None Include="Resources\CifraC7#5ouC7b13.png" />
+    <None Include="Resources\CifraC7b5ouC7#11.png" />
+    <None Include="Resources\IncorretoRitmoDinamica.png" />
+    <None Include="Resources\ppp.png" />
+    <None Include="Resources\pp.png" />
+    <None Include="Resources\p.png" />
+    <None Include="Resources\mp.png" />
+    <None Include="Resources\mf.png" />
+    <None Include="Resources\fff.png" />
+    <None Include="Resources\ff.png" />
+    <None Include="Resources\_f.png" />
+    <None Include="Resources\PontoAumento3.png" />
+    <None Include="Resources\PontoAumento2.png" />
+    <None Include="Resources\PontoAumento1.png" />
+    <None Include="Resources\IncorretoRitmo.png" />
+    <None Include="Resources\CorretoRitmo.png" />
+    <None Include="Resources\Ligaduras.png" />
+    <None Include="Resources\Dppp2.png" />
+    <None Include="Resources\Dpp2.png" />
+    <None Include="Resources\Dp2.png" />
+    <None Include="Resources\Dmp2.png" />
+    <None Include="Resources\Dmf2.png" />
+    <None Include="Resources\Dfff2.png" />
+    <None Include="Resources\Dff2.png" />
+    <None Include="Resources\Df2.png" />
+    <None Include="Resources\CifraCadd9E.png" />
+    <None Include="Resources\CifraCº7M.png" />
+    <None Include="Resources\CifraCº.png" />
+    <None Include="Resources\CifraCmG.png" />
+    <None Include="Resources\CifraCmEb.png" />
+    <None Include="Resources\CifraCmBb.png" />
+    <None Include="Resources\CifraCmadd9.png" />
+    <None Include="Resources\CifraCm7911.png" />
+    <None Include="Resources\CifraCm711.png" />
+    <None Include="Resources\CifraCm79G.png" />
+    <None Include="Resources\CifraCm79.png" />
+    <None Include="Resources\CifraCm69Eb.png" />
+    <None Include="Resources\CifraCm69.png" />
+    <None Include="Resources\CifraCm7M9.png" />
+    <None Include="Resources\CifraCm7M6.png" />
+    <None Include="Resources\CifraCm7M.png" />
+    <None Include="Resources\CifraCm7G.png" />
+    <None Include="Resources\CifraCm7b5.png" />
+    <None Include="Resources\CifraCm7.png" />
+    <None Include="Resources\CifraCm6G.png" />
+    <None Include="Resources\CifraCm6Eb.png" />
+    <None Include="Resources\CifraCm6.png" />
+    <None Include="Resources\CifraCm.png" />
+    <None Include="Resources\CifraCBb.png" />
+    <None Include="Resources\CifraCadd9.png" />
+    <None Include="Resources\CifraC#5.png" />
+    <None Include="Resources\CifraC G.png" />
+    <None Include="Resources\CifraC E.png" />
+    <None Include="Resources\CifraC74913.png" />
+    <None Include="Resources\CifraC7913.png" />
+    <None Include="Resources\CifraC7413.png" />
+    <None Include="Resources\CifraC749.png" />
+    <None Include="Resources\CifraC713.png" />
+    <None Include="Resources\CifraC79.png" />
+    <None Include="Resources\CifraC79#11.png" />
+    <None Include="Resources\CifraC74b9.png" />
+    <None Include="Resources\CifraC74.png" />
+    <None Include="Resources\CifraC69G.png" />
+    <None Include="Resources\CifraC69E.png" />
+    <None Include="Resources\CifraC69.png" />
+    <None Include="Resources\CifraC7MG.png" />
+    <None Include="Resources\CifraC7ME.png" />
+    <None Include="Resources\CifraC7M#11G.png" />
+    <None Include="Resources\CifraC7M#11.png" />
+    <None Include="Resources\CifraC7M#5E.png" />
+    <None Include="Resources\CifraC7M#5.png" />
+    <None Include="Resources\CifraC7M69.png" />
+    <None Include="Resources\CifraC7M9G.png" />
+    <None Include="Resources\CifraC7M9E.png" />
+    <None Include="Resources\CifraC7M9B.png" />
+    <None Include="Resources\CifraC7M9.png" />
+    <None Include="Resources\CifraC7M9#11G.png" />
+    <None Include="Resources\CifraC7M9#11.png" />
+    <None Include="Resources\CifraC7M6.png" />
+    <None Include="Resources\CifraC7M.png" />
+    <None Include="Resources\CifraC7G.png" />
+    <None Include="Resources\CifraC7E.png" />
+    <None Include="Resources\CifraC7b913.png" />
+    <None Include="Resources\CifraC7b13.png" />
+    <None Include="Resources\CifraC7b9b13.png" />
+    <None Include="Resources\CifraC7b9.png" />
+    <None Include="Resources\CifraC7b9#11.png" />
+    <None Include="Resources\CifraC7b5E.png" />
+    <None Include="Resources\CifraC7b5b9.png" />
+    <None Include="Resources\CifraC7b5.png" />
+    <None Include="Resources\CifraC7b5#9.png" />
+    <None Include="Resources\CifraC7.png" />
+    <None Include="Resources\CifraC7#1113.png" />
+    <None Include="Resources\CifraC7#59.png" />
+    <None Include="Resources\CifraC7#11.png" />
+    <None Include="Resources\CifraC7#9G.png" />
+    <None Include="Resources\CifraC7#9.png" />
+    <None Include="Resources\CifraC7#9#11.png" />
+    <None Include="Resources\CifraC7#5E.png" />
+    <None Include="Resources\CifraC7#5Bb.png" />
+    <None Include="Resources\CifraC7#5b9.png" />
+    <None Include="Resources\CifraC7#5.png" />
+    <None Include="Resources\CifraC7#5#9.png" />
+    <None Include="Resources\CifraC6G.png" />
+    <None Include="Resources\CifraC6.png" />
+    <None Include="Resources\CifraC4.png" />
+    <None Include="Resources\CifraC.png" />
+    <None Include="Resources\Dppp.png" />
+    <None Include="Resources\Dpp.png" />
+    <None Include="Resources\Dp.png" />
+    <None Include="Resources\Dmp.png" />
+    <None Include="Resources\Dmf.png" />
+    <None Include="Resources\Dfff.png" />
+    <None Include="Resources\Dff.png" />
+    <None Include="Resources\Df.png" />
+    <None Include="Resources\Acordes.png" />
+    <None Include="Resources\Nota73.png" />
+    <None Include="Resources\NNota73.png" />
+    <None Include="Resources\Nota72.png" />
+    <None Include="Resources\Nota71.png" />
+    <None Include="Resources\Nota70.png" />
+    <None Include="Resources\Nota69.png" />
+    <None Include="Resources\Nota68.png" />
+    <None Include="Resources\NNota72.png" />
+    <None Include="Resources\NNota71.png" />
+    <None Include="Resources\NNota70.png" />
+    <None Include="Resources\NNota69.png" />
+    <None Include="Resources\NNota68.png" />
+    <None Include="Resources\Triplet4.png" />
+    <None Include="Resources\Triplet3.png" />
+    <None Include="Resources\Nota67.png" />
+    <None Include="Resources\NNota67.png" />
+    <None Include="Resources\NNota63.png" />
+    <None Include="Resources\Nota63.png" />
+    <None Include="Resources\Nota66.png" />
+    <None Include="Resources\Nota65.png" />
+    <None Include="Resources\Nota64.png" />
+    <None Include="Resources\Nota62.png" />
+    <None Include="Resources\Nota61.png" />
+    <None Include="Resources\Nota60.png" />
+    <None Include="Resources\NNota66.png" />
+    <None Include="Resources\NNota65.png" />
+    <None Include="Resources\NNota64.png" />
+    <None Include="Resources\NNota62.png" />
+    <None Include="Resources\NNota61.png" />
+    <None Include="Resources\NNota60.png" />
+    <None Include="Resources\Nota59.png" />
+    <None Include="Resources\Nota58.png" />
+    <None Include="Resources\Nota57.png" />
+    <None Include="Resources\Nota56.png" />
+    <None Include="Resources\NNota59.png" />
+    <None Include="Resources\NNota58.png" />
+    <None Include="Resources\NNota57.png" />
+    <None Include="Resources\NNota56.png" />
+    <None Include="Resources\Triplet2.png" />
+    <None Include="Resources\Triplet1.png" />
+    <None Include="Resources\Figura6.png" />
+    <None Include="Resources\Figura5.png" />
+    <None Include="Resources\Figura4.png" />
+    <None Include="Resources\Figura3.png" />
+    <None Include="Resources\Figura2.png" />
+    <None Include="Resources\Figura1.png" />
+    <None Include="Resources\Pausa6.png" />
+    <None Include="Resources\Pausa5.png" />
+    <None Include="Resources\Pausa4.png" />
+    <None Include="Resources\Pausa3.png" />
+    <None Include="Resources\BarraCompasso13.png" />
+    <None Include="Resources\BarraCompasso12.png" />
+    <None Include="Resources\BarraCompasso11.png" />
+    <None Include="Resources\BarraCompasso10.png" />
+    <None Include="Resources\BarraCompasso9.png" />
+    <None Include="Resources\BarraCompasso8.png" />
+    <None Include="Resources\BarraCompasso7.png" />
+    <None Include="Resources\BarraCompasso6.png" />
+    <None Include="Resources\BarraCompasso5.png" />
+    <None Include="Resources\BarraCompasso4.png" />
+    <None Include="Resources\BarraCompasso3.png" />
+    <None Include="Resources\BarraCompasso2.png" />
+    <None Include="Resources\BarraCompasso1.png" />
+    <None Include="Resources\7-8.png" />
+    <None Include="Resources\5-8.png" />
+    <None Include="Resources\4-8.png" />
+    <None Include="Resources\3-8.png" />
+    <None Include="Resources\5-4.png" />
+    <None Include="Resources\EfeitoVidro.png" />
+    <None Include="Resources\PonteiroMetronomo2.png" />
+    <None Include="Resources\PonteiroMetronomo1.png" />
+    <None Include="Resources\12-8.png" />
+    <None Include="Resources\12-4.png" />
+    <None Include="Resources\9-8.png" />
+    <None Include="Resources\9-4.png" />
+    <None Include="Resources\6-8.png" />
+    <None Include="Resources\6-4.png" />
+    <None Include="Resources\4-2.png" />
+    <None Include="Resources\3-2.png" />
+    <None Include="Resources\2-4.png" />
+    <None Include="Resources\2-2.png" />
+    <None Include="Resources\3-4.png" />
+    <None Include="Resources\4-4.png" />
+    <None Include="Resources\MãoEsquerda.png" />
+    <None Include="Resources\MãoDireita.png" />
+    <None Include="Resources\Nota55.png" />
+    <None Include="Resources\Nota54.png" />
+    <None Include="Resources\NNota55.png" />
+    <None Include="Resources\NNota54.png" />
+    <None Include="Resources\Nota53.png" />
+    <None Include="Resources\Nota52.png" />
+    <None Include="Resources\NNota53.png" />
+    <None Include="Resources\NNota52.png" />
+    <None Include="Resources\Nota51.png" />
+    <None Include="Resources\Nota50.png" />
+    <None Include="Resources\NNota51.png" />
+    <None Include="Resources\NNota50.png" />
+    <None Include="Resources\Nota49.png" />
+    <None Include="Resources\Nota48.png" />
+    <None Include="Resources\NNota49.png" />
+    <None Include="Resources\NNota48.png" />
+    <None Include="Resources\Nota47.png" />
+    <None Include="Resources\Nota46.png" />
+    <None Include="Resources\NNota47.png" />
+    <None Include="Resources\NNota46.png" />
+    <None Include="Resources\Nota45.png" />
+    <None Include="Resources\Nota44.png" />
+    <None Include="Resources\NNota45.png" />
+    <None Include="Resources\NNota44.png" />
+    <None Include="Resources\Nota43.png" />
+    <None Include="Resources\Nota42.png" />
+    <None Include="Resources\NNota43.png" />
+    <None Include="Resources\NNota42.png" />
+    <None Include="Resources\PontoAumento.png" />
+    <None Include="Resources\Pausa2.png" />
+    <None Include="Resources\Pausa1.png" />
+    <None Include="Resources\NNota41.png" />
+    <None Include="Resources\NNota40.png" />
+    <None Include="Resources\NNota39.png" />
+    <None Include="Resources\NNota38.png" />
+    <None Include="Resources\Nota41.png" />
+    <None Include="Resources\Nota40.png" />
+    <None Include="Resources\Nota39.png" />
+    <None Include="Resources\Nota38.png" />
+    <None Include="Resources\Nota37.png" />
+    <None Include="Resources\NNota36.png" />
+    <None Include="Resources\NNota37.png" />
+    <None Include="Resources\NNota35.png" />
+    <None Include="Resources\NNota34.png" />
+    <None Include="Resources\NNota33.png" />
+    <None Include="Resources\Nota36.png" />
+    <None Include="Resources\Nota35.png" />
+    <None Include="Resources\Nota34.png" />
+    <None Include="Resources\Nota33.png" />
+    <None Include="Resources\NNota32.png" />
+    <None Include="Resources\Nota32.png" />
+    <None Include="Resources\NNota13.png" />
+    <None Include="Resources\NNota12.png" />
+    <None Include="Resources\NNota27.png" />
+    <None Include="Resources\NNota26.png" />
+    <None Include="Resources\NNota31.png" />
+    <None Include="Resources\NNota30.png" />
+    <None Include="Resources\NNota29.png" />
+    <None Include="Resources\NNota28.png" />
+    <None Include="Resources\NNota1.png" />
+    <None Include="Resources\NNota2.png" />
+    <None Include="Resources\NNota4.png" />
+    <None Include="Resources\NNota25.png" />
+    <None Include="Resources\NNota24.png" />
+    <None Include="Resources\NNota23.png" />
+    <None Include="Resources\NNota22.png" />
+    <None Include="Resources\NNota21.png" />
+    <None Include="Resources\NNota20.png" />
+    <None Include="Resources\NNota19.png" />
+    <None Include="Resources\NNota18.png" />
+    <None Include="Resources\NNota17.png" />
+    <None Include="Resources\NNota16.png" />
+    <None Include="Resources\NNota15.png" />
+    <None Include="Resources\NNota14.png" />
+    <None Include="Resources\NNota11.png" />
+    <None Include="Resources\NNota10.png" />
+    <None Include="Resources\NNota9.png" />
+    <None Include="Resources\NNota8.png" />
+    <None Include="Resources\NNota7.png" />
+    <None Include="Resources\NNota5.png" />
+    <None Include="Resources\NNota3.png" />
+    <None Include="Resources\NNota6.png" />
+    <None Include="Resources\Nota31.png" />
+    <None Include="Resources\Nota30.png" />
+    <None Include="Resources\Nota29.png" />
+    <None Include="Resources\Nota28.png" />
+    <None Include="Resources\Nota27.png" />
+    <None Include="Resources\Nota26.png" />
+    <None Include="Resources\Nota25.png" />
+    <None Include="Resources\Nota24.png" />
+    <None Include="Resources\Nota23.png" />
+    <None Include="Resources\Nota22.png" />
+    <None Include="Resources\Nota21.png" />
+    <None Include="Resources\Nota20.png" />
+    <None Include="Resources\Nota19.png" />
+    <None Include="Resources\Nota18.png" />
+    <None Include="Resources\Nota17.png" />
+    <None Include="Resources\Nota16.png" />
+    <None Include="Resources\Nota15.png" />
+    <None Include="Resources\Nota14.png" />
+    <None Include="Resources\Nota13.png" />
+    <None Include="Resources\Nota12.png" />
+    <None Include="Resources\Nota11.png" />
+    <None Include="Resources\Nota10.png" />
+    <None Include="Resources\Nota9.png" />
+    <None Include="Resources\Nota8.png" />
+    <None Include="Resources\Nota7.png" />
+    <None Include="Resources\Nota6.png" />
+    <None Include="Resources\Nota5.png" />
+    <None Include="Resources\Nota4.png" />
+    <None Include="Resources\Nota3.png" />
+    <None Include="Resources\LegendaDinâmicas.png" />
+    <None Include="Resources\TreinamentoDinamica.png" />
+    <None Include="Resources\TreinamentoRitmico.png" />
+    <None Include="Resources\Nota2.png" />
+    <None Include="Resources\Nota1.png" />
+    <None Include="Resources\BotãoOnOff_Ligado.png" />
+    <None Include="Resources\BotãoOnOff_Desligado.png" />
+    <None Include="Resources\Notas.png" />
+    <None Include="Resources\Sustenido_Intervalos.png" />
+    <None Include="Resources\DobradoSustenido_Intervalos.png" />
+    <None Include="Resources\DobradoBemol_Intervalos.png" />
+    <None Include="Resources\Bemol_Intervalos.png" />
+    <None Include="Resources\ClaveCbemol2Col.png" />
+    <None Include="Resources\ClaveCsus2Col.png" />
+    <None Include="Resources\ClaveCsus2.png" />
+    <None Include="Resources\ClaveCbemol1.png" />
+    <None Include="Resources\ClaveCbemol2.png" />
+    <None Include="Resources\ClaveCsus1.png" />
+    <None Include="Resources\ClaveGbemol2Col.png" />
+    <None Include="Resources\ClaveDbemol2Col.png" />
+    <None Include="Resources\ClaveAbemol2Col.png" />
+    <None Include="Resources\ClaveEbemol2Col.png" />
+    <None Include="Resources\ClaveBbemol2Col.png" />
+    <None Include="Resources\ClaveF2Col.png" />
+    <None Include="Resources\ClaveFsus2Col.png" />
+    <None Include="Resources\ClaveB2Col.png" />
+    <None Include="Resources\ClaveE2Col.png" />
+    <None Include="Resources\ClaveA2Col.png" />
+    <None Include="Resources\ClaveD2Col.png" />
+    <None Include="Resources\ClaveG2Col.png" />
+    <None Include="Resources\ClaveGbemol2.png" />
+    <None Include="Resources\ClaveDbemol2.png" />
+    <None Include="Resources\ClaveAbemol2.png" />
+    <None Include="Resources\ClaveEbemol2.png" />
+    <None Include="Resources\ClaveBbemol2.png" />
+    <None Include="Resources\ClaveF2.png" />
+    <None Include="Resources\ClaveB2.png" />
+    <None Include="Resources\ClaveE2.png" />
+    <None Include="Resources\ClaveA2.png" />
+    <None Include="Resources\ClaveD2.png" />
+    <None Include="Resources\ClaveG2.png" />
+    <None Include="Resources\ClaveFsus2.png" />
+    <None Include="Resources\ClaveNenhum.png" />
+    <None Include="Resources\ClaveF1.png" />
+    <None Include="Resources\ClaveBbemol1.png" />
+    <None Include="Resources\ClaveEbemol1.png" />
+    <None Include="Resources\ClaveAbemol1.png" />
+    <None Include="Resources\ClaveDbemol1.png" />
+    <None Include="Resources\ClaveGbemol1.png" />
+    <None Include="Resources\ClaveFsus1.png" />
+    <None Include="Resources\ClaveB1.png" />
+    <None Include="Resources\ClaveE1.png" />
+    <None Include="Resources\ClaveA1.png" />
+    <None Include="Resources\ClaveG1.png" />
+    <None Include="Resources\ClaveD1.png" />
+    <None Include="Resources\ClaveC1.png" />
+    <None Include="Resources\DivisaoDasOitavasNaPauta2.png" />
+    <None Include="Resources\NotinhaMenu.png" />
+    <None Include="Resources\Numeração linhas suplementares2.png" />
+    <None Include="Resources\Linhas guiasG1.png" />
+    <None Include="Resources\Linhas guiasF5.png" />
+    <None Include="Resources\Linhas guiasC5F3.png" />
+    <None Include="Resources\Linhas guiasC4.png" />
+    <None Include="Resources\Linhas guiasC3.png" />
+    <None Include="Resources\Linhas guiasC2.png" />
+    <None Include="Resources\Linhas guiasC1.png" />
+    <None Include="Resources\SemNota.png" />
+    <None Include="Resources\Teclado.png" />
+    <None Include="Resources\ClaveC.png" />
+    <None Include="Resources\SustenidoArmaduraClave.png" />
+    <None Include="Resources\BemolArmaduraClave.png" />
+    <None Include="Resources\Tecla Incorreta.png" />
+    <None Include="Resources\Tecla Correta.png" />
+    <None Include="Resources\Tecla PretaIncorreta.png" />
+    <None Include="Resources\Tecla PretaCorreta.png" />
+    <None Include="Resources\Pauta.png" />
+    <None Include="Resources\LinhaSuplementar.png" />
+    <None Include="Resources\AbrangenciaNotas2.png" />
+    <None Include="Resources\AbrangenciaNotas1.png" />
+    <None Include="Resources\ClaveDó2.png" />
+    <None Include="Resources\ClaveSol2.png" />
+    <None Include="Resources\ClaveFa2.png" />
+    <None Include="Resources\ClaveDó.png" />
+    <None Include="Resources\PautaClavesDeDó.png" />
+    <None Include="Resources\ClaveSolFá.png" />
+    <None Include="Resources\ProgressãoAcordesTomMaior.png" />
+    <None Include="Resources\ProgressãoAcordes.png" />
+    <None Include="Resources\Seta4.png" />
+    <None Include="Resources\Seta3.png" />
+    <None Include="Resources\DivisaoDasOitavasNaPauta15vb.png" />
+    <None Include="Resources\DivisaoDasOitavasNaPauta15va.png" />
+    <None Include="Resources\DivisaoDasOitavasNaPauta8vb.png" />
+    <None Include="Resources\DivisaoDasOitavasNaPauta8va.png" />
+    <None Include="Resources\DivisaoDasOitavasNaPauta.png" />
+    <None Include="bin\Debug\Conteudo\Escalas\Escala Maior.rtf" />
+    <None Include="Resources\AjudaDasEscalas.png" />
+    <None Include="Resources\Duplo Sustenido pequeno.png" />
+    <None Include="Resources\Duplo Sustenido grande.png" />
+    <None Include="Resources\Duplo Bemol pequeno.png" />
+    <None Include="Resources\Duplo Bemol grande.png" />
+    <None Include="Resources\TocarEscala2.png" />
+    <None Include="Resources\TocarEscala.png" />
+    <None Include="Resources\TeclaEscalaG.png" />
+    <None Include="Resources\TeclaEscalaE.png" />
+    <None Include="Resources\TeclaEscalaD.png" />
+    <None Include="Resources\TeclaEscalaC.png" />
+    <None Include="Resources\TeclaEscalaB.png" />
+    <None Include="Resources\TeclaEscalaA.png" />
+    <None Include="Resources\TeclaEscala2G.png" />
+    <None Include="Resources\TeclaEscala2E.png" />
+    <None Include="Resources\TeclaEscala2D.png" />
+    <None Include="Resources\TeclaEscala2C.png" />
+    <None Include="Resources\TeclaEscala2B.png" />
+    <None Include="Resources\TeclaEscala2A.png" />
+    <None Include="Resources\NumeraçãoNotas.png" />
+    <None Include="Resources\Sustenido pequeno2.png" />
+    <None Include="Resources\15mb2.png" />
+    <None Include="Resources\15ma2.png" />
+    <None Include="Resources\8vb2.png" />
+    <None Include="Resources\8va2.png" />
+    <None Include="Resources\ClaveFa.png" />
+    <None Include="Resources\ClaveSol.png" />
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\TeclaEscala3.png" />
+    <None Include="Resources\TeclaEscala4.png" />
+    <None Include="Resources\TeclaEscala.png" />
+    <None Include="Resources\TeclaEscala2.png" />
+    <None Include="Resources\BarraTelaInicial.png" />
+    <None Include="Resources\Escalas.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
